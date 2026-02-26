@@ -25,5 +25,13 @@ public class Arbol_Binario {
 
         return actual;
     }
+
+    public Nodo_Arbol getRaiz() {
+        return raiz;
     }
+
+    public void setRaiz(Nodo_Arbol raiz) {
+        this.raiz = raiz;
+    }
+}
 
