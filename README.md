@@ -1,4 +1,1 @@
-En la carpeta src se encuentran las implementaciones de dos tipos de arboles, binarios y generales
-La carpeta Arbol_Binario contiene la implementacion del nodo utilizado y la implementacion del arbol en si
-La carpeta Arbol_General coneitene la implementacion del nodo utilizado y del arbol general
-A falta de la implementacion de recorridos
+En la carpeta src se encuentran las implementaciones de dos tipos de arboles, binarios y generales. La carpeta Arbol_Binario contiene la implementacion del nodo utilizado y la implementacion del arbol en si. La carpeta Arbol_General conitene la implementacion del nodo utilizado y del arbol general. A falta de la implementacion de recorridos
