@@ -5,10 +5,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class Arbol_General {
+public class Arbol_Genealogico {
     Nodo_ArbolG raiz;
 
-    public Arbol_General(persona datoRaiz) {
+    public Arbol_Genealogico(persona datoRaiz) {
         raiz = new Nodo_ArbolG(datoRaiz);
     }
 

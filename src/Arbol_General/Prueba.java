@@ -7,7 +7,7 @@ public class Prueba {
         persona p3 = new persona("Rolando", "1971", 'M');
         persona p4 = new persona("Roro", "2019", 'F');
 
-        Arbol_General arbol = new Arbol_General(p3);
+        Arbol_Genealogico arbol = new Arbol_Genealogico(p3);
         try {
             arbol.agregarRelacion(arbol.raiz, p3, p, "Hijo");
             arbol.agregarRelacion(arbol.raiz, p3, p2, "Hijo");

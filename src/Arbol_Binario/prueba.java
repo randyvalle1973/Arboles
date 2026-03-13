@@ -6,7 +6,7 @@ public class prueba {
                 "Bayern", "Inter", "Liverpool", "Dortmund"
         };
 
-        Arbol_Binario torneo = new Arbol_Binario();
+        Arbol_Torneo torneo = new Arbol_Torneo();
         torneo.raiz = torneo.crearTorneo(equipos);
         torneo.simularTorneo(torneo.raiz);
         System.out.println(torneo.raiz.ganador);

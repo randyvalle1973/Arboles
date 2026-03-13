@@ -2,10 +2,10 @@ package Arbol_Binario;
 
 import java.util.Random;
 
-public class Arbol_Binario {
+public class Arbol_Torneo {
         NodoPartido raiz;
 
-        public Arbol_Binario() {
+        public Arbol_Torneo() {
             raiz = null;
         }
 
