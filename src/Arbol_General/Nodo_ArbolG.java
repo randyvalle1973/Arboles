@@ -4,19 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Nodo_ArbolG {
-    int dato;
+    persona dato;
     List<Nodo_ArbolG> hijos;
 
-    public Nodo_ArbolG(int dato) {
+    public Nodo_ArbolG(persona dato) {
         this.dato = dato;
         this.hijos = new ArrayList<>();
     }
 
-    public int getDato() {
+    public persona getDato() {
         return dato;
     }
 
-    public void setDato(int dato) {
+    public void setDato(persona dato) {
         this.dato = dato;
     }
 

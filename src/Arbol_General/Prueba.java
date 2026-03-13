@@ -2,19 +2,26 @@ package Arbol_General;
 
 public class Prueba {
     public static void main(String[] args) {
-        Arbol_General arbol = new Arbol_General(1);
+        persona p = new persona("Randy", "2018", 'M');
+        persona p2 = new persona("Maria", "1980", 'F');
+        persona p3 = new persona("Rolando", "1971", 'M');
+        persona p4 = new persona("Roro", "2019", 'F');
+
+        Arbol_General arbol = new Arbol_General(p3);
         try {
-            arbol.insertarHijo(arbol.raiz, 2);
-            arbol.insertarHijo(arbol.raiz, 3);
-            arbol.insertarHijo(arbol.raiz, 5);
-            arbol.insertarHijo(arbol.raiz, 2);
+            arbol.agregarRelacion(arbol.raiz, p3, p, "Hijo");
+            arbol.agregarRelacion(arbol.raiz, p3, p2, "Hijo");
+            arbol.agregarRelacion(arbol.raiz, p2, p4, "Hijo");
         } catch (Exception e) {
             e.printStackTrace();
         }
-        arbol.eliminar(arbol.raiz, 7);
-        arbol.preorden(arbol.raiz);
-        System.out.println("\n");
-        arbol.postorden(arbol.raiz);
+
+
+//        if (!arbol.eliminar(arbol.raiz, "Randy")) {
+//            System.out.println("No se encontró");
+//        }
+//        arbol.mostrarAntepasados("Randy");
+        arbol.BFS();
 
     }
 
