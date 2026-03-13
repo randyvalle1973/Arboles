@@ -1,1 +1,1 @@
-En la carpeta src se encuentran las implementaciones de dos tipos de arboles, binarios y generales. La carpeta Arbol_Binario contiene la implementacion del nodo utilizado y la implementacion del arbol en si. La carpeta Arbol_General conitene la implementacion del nodo utilizado y del arbol general. A falta de la implementacion de recorridos
+En la carpeta src se encuentran las resoluciones de los ejercicios de arbol genealogico y del torneo, en la carpeta de arbol general se encuentra el arbol genealogico y en la carpeta de arbol binario se encuentra la simulacion del torneo
